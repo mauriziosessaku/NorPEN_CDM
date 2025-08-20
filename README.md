@@ -11,7 +11,7 @@ This repository provides:
 - **ETL scripts** for data transformation  
 - **Documentation & guides** for researchers  
 
-The goal is to **harmonize pharmacological and epidemiological data** across Norwegian health registers, supporting **collaborative research, reproducibility, and transparency**.
+The goal is to **harmonize pharmacological and epidemiological data** across Nordic registers, supporting **collaborative research, reproducibility, and transparency**.
 
 ---
 
@@ -45,7 +45,7 @@ NorPEN CDM is designed to:
 ### ✅ Prerequisites  
 - Python >= 3.8 (for ETL scripts)  
 - R (optional, for statistical analysis)  
-- Access to Norwegian health register data (subject to governance and approvals)  
+- Access to Nordic register data (subject to governance and approvals)  
 
 ### ⚙️ Installation  
 
