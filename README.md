@@ -4,7 +4,7 @@
 
 ## 📖 Overview  
 
-**NorPEN CDM subcommittee** is a committee-led initiative on **Common Data Models (CDM)** implementation for the **Nordic Pharmaco-Epidemiological Network (NorPEN)**.  
+**NorPEN CDM subcommittee** is a NorPEN initiative on **Common Data Models (CDM)** implementation for the **Nordic Pharmaco-Epidemiological Network (NorPEN)**.  
 
 This repository provides:  
 - Standardized **data model definitions**  
