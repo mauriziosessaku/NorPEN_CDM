@@ -1,0 +1,79 @@
+````markdown name=README.md
+# NorPEN CDM
+
+![NorPEN Logo](https://usercontent.one/wp/norpen.org/wp-content/uploads/2024/02/NorPEN_logo.png?media=1731672452) 
+
+## Overview
+
+**NorPEN CDM** is a commitee dedicated to Common Data Models (CDM) implementation for the Nordic Pharmaco-Epidemiological Network (NorPEN). This repository provides the standardized data structures, scripts, and documentation necessary to harmonize pharmacological and epidemiological data across Norwegian health registers, supporting collaborative research and reproducibility.
+
+## What is a Common Data Model (CDM)?
+
+A Common Data Model (CDM) is a standardized framework for organizing and structuring data from diverse sources, enabling easy sharing, analysis, and reproducibility. NorPEN CDM is designed to:
+
+- Harmonize data from multiple registers.
+- Enable efficient multi-database studies.
+- Ensure transparency and consistency across research projects.
+
+## Repository Structure
+
+```
+.
+├── data_model/        # Data model definitions (schemas, tables, fields)
+├── scripts/           # ETL scripts for data transformation and loading
+├── documentation/     # Additional documentation, data dictionary, and guides
+├── examples/          # Example datasets and usage guides
+├── tests/             # Validation and QA scripts
+└── README.md          # This file
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Python >= 3.8 (for ETL scripts)
+- R (optional, for statistical analysis)
+- Access to Norwegian health register data (subject to data governance)
+
+### Installation
+
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/mauriziosessaku/NorPEN_CDM.git
+    cd NorPEN_CDM
+    ```
+
+2. **Set up your Python environment**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3. **Review the [documentation](./documentation/)** for details on data model and ETL process.
+
+### Using the CDM
+
+- **Data Model:** See [`data_model/`](./data_model/) for schemas and table definitions.
+- **ETL Scripts:** Use scripts in [`scripts/`](./scripts/) to transform your raw register data into the CDM format.
+- **Guides:** Check [`documentation/`](./documentation/) for a step-by-step guide and data dictionary.
+
+## Contributing
+
+We welcome contributions from the NorPEN community and collaborators!
+
+- Please open issues for suggestions or problems.
+- Pull requests should be linked to an issue and follow the [contribution guidelines](./CONTRIBUTING.md) (if available).
+
+## License
+
+This repository is licensed under the [MIT License](./LICENSE). See the LICENSE file for details.
+
+## Contact
+
+For questions or collaborations, please open an [issue](https://github.com/mauriziosessaku/NorPEN_CDM/issues) or contact the repository maintainers.
+
+---
+
+**NorPEN CDM** — empowering reproducible and collaborative pharmacoepidemiology in Norway.
+````
